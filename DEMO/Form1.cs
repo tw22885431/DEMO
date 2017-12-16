@@ -17,6 +17,7 @@ namespace DEMO
         {
             InitializeComponent();
         }
+        public string myConnection = ""
 
         private void 結束ToolStripMenuItem_Click(object sender, EventArgs e)
         {
