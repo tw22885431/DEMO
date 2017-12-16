@@ -96,7 +96,6 @@
             this.label1.Size = new System.Drawing.Size(44, 18);
             this.label1.TabIndex = 6;
             this.label1.Text = "姓名";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -106,7 +105,6 @@
             this.label2.Size = new System.Drawing.Size(44, 18);
             this.label2.TabIndex = 7;
             this.label2.Text = "帳號";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -134,7 +132,7 @@
             this.EMAIL.Size = new System.Drawing.Size(67, 18);
             this.EMAIL.TabIndex = 10;
             this.EMAIL.Text = "E-MAIL";
-            this.EMAIL.Click += new System.EventHandler(this.label5_Click);
+
             // 
             // label6
             // 
@@ -184,7 +182,6 @@
             this.Controls.Add(this.Account);
             this.Controls.Add(this.PWD_Currect);
             this.Controls.Add(this.Password);
-            this.Name = "RegisterForm";
             this.Text = "註冊";
             this.Load += new System.EventHandler(this.RegisterForm_Load);
             this.ResumeLayout(false);
