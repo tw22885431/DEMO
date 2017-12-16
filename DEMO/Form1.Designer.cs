@@ -119,6 +119,9 @@
             this.label1.Size = new System.Drawing.Size(82, 24);
             this.label1.TabIndex = 1;
             this.label1.Text = "帳號：";
+            // 
+            // label2
+            // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label2.Location = new System.Drawing.Point(112, 189);

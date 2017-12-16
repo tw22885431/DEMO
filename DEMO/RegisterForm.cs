@@ -11,10 +11,18 @@ using System.Windows.Forms;
 namespace DEMO
 {
 
-    
-
     public partial class RegisterForm : Form
     {
+
+        public string name;
+
+        public string ID;
+
+        public string password;
+
+        public int number;
+
+
         public RegisterForm()
         {
             InitializeComponent();
@@ -33,11 +41,15 @@ namespace DEMO
         private void button2_Click(object sender, EventArgs e)
         {
 
+            name = Name.Text;
+
+            password = Password.Text;
+
+            ID = Account.Text;
+
+            number = int.Parse(Number.Text);
+
         }
 
-        private void Name_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
