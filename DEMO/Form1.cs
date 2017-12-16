@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 
 namespace DEMO
 {
@@ -17,7 +16,7 @@ namespace DEMO
         {
             InitializeComponent();
         }
-        public string myConnection = ""
+       
 
         private void 結束ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -32,6 +31,11 @@ namespace DEMO
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
