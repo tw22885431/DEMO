@@ -17,7 +17,7 @@ namespace DEMO
         {
             InitializeComponent();
         }
-        public string myConnection = ""
+        public string myConnection = "";
 
         private void 結束ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -32,6 +32,11 @@ namespace DEMO
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void 註冊ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+         
         }
     }
 }
