@@ -32,10 +32,11 @@
             this.帳號ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.註冊ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.說明ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.登出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.結束ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.買書ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.賣書ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.登出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,19 +66,25 @@
             // 註冊ToolStripMenuItem
             // 
             this.註冊ToolStripMenuItem.Name = "註冊ToolStripMenuItem";
-            this.註冊ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.註冊ToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.註冊ToolStripMenuItem.Text = "註冊";
             // 
             // 說明ToolStripMenuItem
             // 
             this.說明ToolStripMenuItem.Name = "說明ToolStripMenuItem";
-            this.說明ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.說明ToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.說明ToolStripMenuItem.Text = "說明";
+            // 
+            // 登出ToolStripMenuItem
+            // 
+            this.登出ToolStripMenuItem.Name = "登出ToolStripMenuItem";
+            this.登出ToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
+            this.登出ToolStripMenuItem.Text = "登出";
             // 
             // 結束ToolStripMenuItem
             // 
             this.結束ToolStripMenuItem.Name = "結束ToolStripMenuItem";
-            this.結束ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.結束ToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.結束ToolStripMenuItem.Text = "結束";
             this.結束ToolStripMenuItem.Click += new System.EventHandler(this.結束ToolStripMenuItem_Click);
             // 
@@ -93,21 +100,28 @@
             this.賣書ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.賣書ToolStripMenuItem.Text = "賣書";
             // 
-            // 登出ToolStripMenuItem
+            // label1
             // 
-            this.登出ToolStripMenuItem.Name = "登出ToolStripMenuItem";
-            this.登出ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.登出ToolStripMenuItem.Text = "登出";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(93, 76);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(56, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "帳號：";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(526, 342);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -125,6 +139,7 @@
         private System.Windows.Forms.ToolStripMenuItem 登出ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 買書ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 賣書ToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
     }
 }
 
